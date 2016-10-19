@@ -1,0 +1,8 @@
+<h1>About me</h1>
+<p>Lots of interesting stuffs.</p>
+<p>My favorite color is <%= @color %></p>
+        <% if @shoe_size.to_i >= 12 %>
+            <p>WOW YO SHIT IS HUGE</p></p>
+        <% else %>
+            <p>Your shoe size is <%= @shoe_size %></p>
+        <% end %>

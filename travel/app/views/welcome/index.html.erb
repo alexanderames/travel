@@ -1,0 +1,14 @@
+<h1>Welcome to my Travel Site</h1>
+<p>Stay tuned for cool travel stuff!</p>
+
+<%= @homestate %>
+
+<ul>
+<% @countries.each do |country| %>
+  <li><%= country %></li>
+<% end %>
+</ul>
+
+<% @images.each do |pic| %>
+	<%= image_tag pic %>
+ <% end %>
